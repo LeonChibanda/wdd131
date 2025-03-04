@@ -21,7 +21,7 @@ body {
 
 body {
   line-height: 3;
-  font-family: var(----dark-imperial-blue);
+  font-family: var(--paragraph-font);
   color: #333;
 }
 
@@ -73,7 +73,7 @@ nav a:hover {
 
 main {
   max-width: 1400px;
-  margin: 12auto;
+  margin: 1rem auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 1rem;
