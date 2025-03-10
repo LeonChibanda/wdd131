@@ -40,7 +40,7 @@ const temples = [
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg",
         width: "400px",
-        height: "225px"
+        height: "250px"
     },
     {
         templeName: "Yigo Guam",
@@ -186,7 +186,7 @@ const temples = [
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/helsinki-finland/400x225/helsinki-finland-temple-lds-354498-wallpaper.jpg",
         width: "400px",
-        height: "225px"
+        height: "250px"
     },
     {
         templeName: "Fukuoka Japan",
