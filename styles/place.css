@@ -1,13 +1,10 @@
-
 :root {
     --platinum: #dee2e6;
     --onyx: #343a40;
     --gunmetal: #1F2E3B;
     --chocolate-cosmos: #67171F;
-
-    --poppins-regular: 'Poppins', sans-serif;
+    --alice-blue: #f0f8ff;
     
-
     /* Primary color */
     --headline-color-on-white: var(--onyx);
     --headline-color-on-color: var(--platinum);
@@ -27,7 +24,7 @@
 }
 
 body {
-    font-family: var(--poppins-regular);
+    font-family: var(--montserrat);
 }
 
 h1 {

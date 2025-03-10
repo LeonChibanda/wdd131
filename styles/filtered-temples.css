@@ -4,8 +4,6 @@
     --accent1-color-YInMn-Blue: #415A77;
     --accent2-color-SilverLake-Blue: #778DA9;
     --accent3-color-Platinum: #E0E1DD;
-    
-    --poppins-regular: 'Poppins', sans-serif;
 
     --headline-color-on-white: var(--primary-color-Rich-black);
     --headline-color-on-color: var(--accent3-color-Platinum);
@@ -14,10 +12,7 @@
     --paragraph-background-color: var(--secondary-color-Oxford-Blue);
     --nav-link-color: var(--accent3-color-Platinum);
     --nav-background-color: var(--secondary-color-Oxford-Blue);
-    --nav-hover-link-color: var(--accent2-color-SilverLake-Blue);
-    --nav-hover-background-color: var(--primary-color-Rich-black);
 }
-
 
 * {
     margin: 0;
@@ -26,10 +21,8 @@
 }
 
 body {
-    font-family: var(--poppins-regular);
-    font-weight: var(--poppins-regular-weight);
+    font-family: 'Cinzel', serif;
 }
-
 
 header {
     background-color: var(--nav-background-color);
