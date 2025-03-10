@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="South Africa - Cape Town - A place I currently live in as of 2025">
+    <meta name="keywords" content="Place, South-Africa, Cape Town, Travel">
+    <meta name="author" content="Leon Chibanda">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>South Africa - Table Mountain</h1>
+    </header>
+    <main class="container">
+        <div class="hero-section">
+            <picture class="hero">
+                <source media="(min-width: 1000px)" srcset="images/tablemountain-large.webp">
+                <source media="(min-width: 620px)" srcset="images/tablemountain-medium.jpg">
+                <img src="images/tablemountain-small.webp" alt="Cape Town">
+            </picture>
+        </div>
+        <div class="data">
+            <h2 class="box-title">Data</h2>
+            <table>
+                <tr>
+                    <td class="label"><b>Area:</b></td>
+                    <td>1 219 602 km2</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Population:</b></td>
+                    <td>63,21 million</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Capitals:</b></td>
+                    <td>Cape Town, Pretoria, Bloemfontein</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Languages:</b></td>
+                    <td>Afrikaans, English, Xhosa, Zulu,+8 </td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Currency:</b></td>
+                    <td>South African rand (ZAR)</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Time Zone:</b></td>
+                    <td>South Africa (GMT+2)</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Calling Code:</b></td>
+                    <td>+27</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Internet TLD:</b></td>
+                    <td>.za</td>
+                </tr>
+            </table>
+        </div>
+        <div class="weather">
+            <h2 class="box-title">Weather <span class="weather-icon">&#9925;</span></h2>
+            <img src="images/weather-icon.svg" alt="light weather">
+            <table>
+                <tr>
+                    <td class="label"><b>Temperature:</b></td>
+                    <td>22 °C</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Conditions:</b></td>
+                    <td>Sunny</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Wind:</b></td>
+                    <td>32 km/h</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Wind Chill:</b></td>
+                    <td>16 °C</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p><span id="currentYear"></span> &#128024; Leon Chibanda &#128024; South Africa</p>
+        <p class="highlight" id="lastModified">
+           <span id="lastModifiedDate"></span>
+        </p>
+    </footer>
+</body>
+
+</html>
