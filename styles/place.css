@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 :root {
     --platinum: #dee2e6;
     --onyx: #343a40;
     --gunmetal: #1F2E3B;
     --chocolate-cosmos: #67171F;
 
-    /* Poppins font */
-    --poppins-regular: "Poppins", sans-serif;
+    --poppins-regular: 'Poppins', sans-serif;
+    
 
     /* Primary color */
     --headline-color-on-white: var(--onyx);
@@ -103,7 +104,6 @@ header {
     grid-row: 3;
     margin-bottom: 50px;
 }
-
 
 .weather img {
     width: 15%;
