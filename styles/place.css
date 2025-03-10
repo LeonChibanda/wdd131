@@ -5,6 +5,8 @@
     --gunmetal: #1F2E3B;
     --chocolate-cosmos: #67171F;
     --alice-blue: #f0f8ff;
+
+    --montserrat: 'Montserrat', sans-serif;
     
     /* Primary color */
     --headline-color-on-white: var(--onyx);

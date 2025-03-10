@@ -6,6 +6,8 @@
     --accent2-color-SilverLake-Blue: #778DA9;
     --accent3-color-Platinum: #E0E1DD;
 
+    --cinzel: 'Cinzel', serif;
+
     --headline-color-on-white: var(--primary-color-Rich-black);
     --headline-color-on-color: var(--accent3-color-Platinum);
     --paragraph-color-on-white: var(--primary-color-Rich-black);
