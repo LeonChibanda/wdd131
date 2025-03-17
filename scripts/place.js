@@ -31,10 +31,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.querySelector(".weather table").appendChild(windChillElement);
 });
-
-// Footer infor
-
-let d = new Date();
-document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
-document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
-
