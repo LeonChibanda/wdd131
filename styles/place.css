@@ -1,22 +1,28 @@
 :root {
-    --platinum: #dee2e6;
-    --onyx: #343a40;
-    --gunmetal: #1F2E3B;
-    --chocolate-cosmos: #67171F;
-    --alice-blue: #f0f8ff;
+    /* Color Palette */
+    --color-light-gray: #e9ecef;
+    --color-dark-gray: #212529;
+    --color-blue-gray: #2C3E50;
+    --color-dark-red: #7B1E26;
+    --color-light-blue: #eef6ff;
+    --color-onyx: #353839;
+    --color-platinum: #e5e4e2;
+    --color-gunmetal: #2a3439;
+    --color-alice-blue: #f0f8ff;
 
-    --montserrat: 'Montserrat', sans-serif;
-    
-    /* Primary color */
-    --headline-color-on-white: var(--onyx);
-    --headline-color-on-color: var(--platinum);
-    --paragraph-color-on-white: var(--onyx);
-    --paragraph-color-on-color: var(--platinum);
-    --paragraph-background-color: var(--gunmetal);
-    --nav-link-color: var(--platinum);
-    --nav-background-color: var(--gunmetal);
-    --nav-hover-link-color: var(--alice-blue);
-    --nav-hover-background-color: var(--onyx);
+    /* Font Families */
+    --font-primary: 'Montserrat', sans-serif;
+
+    /* Component Colors */
+    --color-headline-on-white: var(--color-onyx);
+    --color-headline-on-color: var(--color-platinum);
+    --color-paragraph-on-white: var(--color-onyx);
+    --color-paragraph-on-color: var(--color-platinum);
+    --color-paragraph-background: var(--color-gunmetal);
+    --color-nav-link: var(--color-platinum);
+    --color-nav-background: var(--color-gunmetal);
+    --color-nav-hover-link: var(--color-alice-blue);
+    --color-nav-hover-background: var(--color-onyx);
 }
 
 * {
@@ -26,7 +32,7 @@
 }
 
 body {
-    font-family: var(--montserrat);
+    font-family: var(--font-primary);
 }
 
 h1 {
@@ -38,6 +44,15 @@ h2 {
     font-size: 1.5rem;
     margin: 0;
     padding-bottom: 20px;
+}
+h2.box-title {
+    padding: 10px 20px;
+    background-color: var(--color-gunmetal);
+    text-align: left;
+    color: var(--color-platinum);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 table {
@@ -70,29 +85,29 @@ td.label {
 header {
     padding: 20px;
     text-align: center;
-    background-color: var(--onyx);
-    color: var(--platinum);
+    background-color: var(--color-onyx);
+    color: var(--color-platinum);
 }
 
 .hero-section {
     grid-row: 1;
-    background-color: var(--gunmetal);
+    background-color: var(--color-gunmetal);
     padding-top: 20px;
 }
 
 .hero img {
     width: 100%;
     height: auto;
-    mask-image: linear-gradient(#67171F 95%, transparent);
+    mask-image: linear-gradient(var(--color-dark-red) 95%, transparent);
 }
 
 .data,
 .weather {
     padding-top: 25px;
 }
+
 .data {
     grid-row: 2;
-
 }
 
 .weather-icon {
@@ -111,8 +126,8 @@ header {
 
 header,
 footer {
-    background-color: var(--onyx);
-    color: var(--platinum);
+    background-color: var(--color-onyx);
+    color: var(--color-platinum);
 }
 
 footer {
