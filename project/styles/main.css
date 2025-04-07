@@ -524,9 +524,7 @@ main {
     color: var(--white);
 }
 
-/* Visit */
 
-/* Sección Principal */
 .section-principal {
     padding: 20px;
     text-align: center;
@@ -542,7 +540,7 @@ main {
     color: var(--orange-wheel);
 }
 
-/* Caja de Precios */
+
 .price-box {
     display: flex;
     flex-wrap: wrap;
@@ -590,7 +588,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Botón de Reservar */
+
 .price-box button {
     background-color: var(--prussian-blue);
     color: var(--font-color-on-background-color);
@@ -606,9 +604,7 @@ main {
     color: var(--font-color-on-background-color);
 }
 
-/* ----------  */
 
-/* Sección de Ofertas */
 .section-media {
     padding: 20px;
     text-align: center;
@@ -657,7 +653,7 @@ main {
     position: relative;
 }
 
-/* Para centrar el h4 en la parte inferior de cada imagen */
+
 .slider-dimensions h4 {
     position: absolute;
     bottom: 10px; 
@@ -720,9 +716,7 @@ button[data-index-change] {
     cursor: pointer;
 }
 
-/* Section opinion*/
 
-/* Sección de Opiniones */
 .section-opinion {
     padding: 60px 20px;
     text-align: center;
@@ -731,13 +725,13 @@ button[data-index-change] {
     gap: 20px;
 }
 
-/* Encabezado */
+
 .section-opinion h2 {
     color: var(--black);
     margin-bottom: 40px;
 }
 
-/* Estilos para cada Opinión */
+
 .opinion {
     background: rgba(255, 255, 255, 0.8);
     color: var(--eerie-black);
@@ -794,7 +788,6 @@ button[data-index-change] {
     filter: invert(0);
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px 0;
@@ -1001,7 +994,7 @@ footer .icon:hover {
         align-items: center;
     }
 
-    /* Opiniones en línea usando Flexbox */
+
     .section-opinion h2 {
         margin-bottom: 30px;
     }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Car Wash Services">
+    <meta name="author" content="Leon Chibanda">
+    <meta name="keywords" content="Car Wash, Services, Clean, Professional, Booking, Convenience">
+
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/ico">
+
+
+    <meta property="og:title" content="Thank You | Car Wash Services">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Thank you for choosing our car wash services. We ensure your car shines like new!">
+    <meta property="og:image" content="images/favicon/favicon.png">
+    <meta property="og:url" content="https://leonchibanda.github.io/wdd231/project/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Thank You | Car Wash Services</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logos/logo.png" alt="Car Wash Logo" />
+                <h1 class="nameHeader"><strong>Car Wash</strong> <br>Services</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="thank-you">
+            <div class="thank-you-content">
+                <h1>Thank You!</h1>
+                <p>We appreciate your trust in our car wash services.</p>
+                <p>Your booking has been confirmed, and we look forward to making your car shine!</p>
+                <a href="index.html" class="button">Back to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear">2025</span> - Leon Chibanda - Car Wash Services</p>
+        <p id="lastModified">Suds up, rinse down, shine all around.  
+            Fast wax, clean glass, ready to cruise.  
+            We buff, you shine.  
+            Drive in dirty, roll out fresh.
+        </p>
+    </footer>
+    <script>
+        document.getElementById("currentyear").textContent =
+            new Date().getFullYear();
+        document.getElementById(
+            "lastModified"
+        ).textContent = `Last Modified: ${document.lastModified}`;
+    </script>
+</body>
+
+</html>

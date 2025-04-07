@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const images = [
-        "images/contact-page-00.png",
+        "images/contact-page-00.jpg",
         "images/contact-page-01.png",
         "images/contact-page-02.png",
         "images/contact-page-03.png",
